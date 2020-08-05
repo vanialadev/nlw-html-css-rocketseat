@@ -46,7 +46,7 @@ textarea {
 
 body {
     height: 100vh;
-    /* background-color: var(--color-primary); */
+    background-color: var(--color-primary);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,4 +55,10 @@ body {
 #container {
     width: 90vw;
     min-width: 700px;
+}
+
+@media (min-width: 700px){
+    :root {
+        font-size: 62.5%;
+    }
 }
