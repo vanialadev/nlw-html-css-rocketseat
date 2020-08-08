@@ -42,8 +42,6 @@ textarea {
   font-size: 1.6rem;
   font-family: Poppins;
   color: var(--color-text-base);
-  border: 0;
-  outline: 0;
 }
 
 body {

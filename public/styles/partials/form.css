@@ -5,7 +5,7 @@
 
 .select-block label,
 .input-block label,
-.textarea-block textarea {
+.textarea-block label {
   font-size: 1.4rem;
   color: var(--color-text-complement);
 }
@@ -25,7 +25,7 @@
   outline: 0;
 }
 
-.textarea-block {
+.textarea-block textarea{
   padding: 1.2rem 1.6rem;
   height: 16rem;
   resize: vertical;
@@ -40,4 +40,10 @@
   position: absolute;
   left: 1.6rem;
   bottom: 0px;
+}
+
+label small {
+  font-size: 1.2rem;
+  padding-left: 1.2rem;
+  color: var(-color-small-info);
 }
